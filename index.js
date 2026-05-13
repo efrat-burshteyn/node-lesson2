@@ -5,7 +5,7 @@ const fs = require('node:fs')
  const start=new Date;
  console.log('is word name appear in text 1:',contain1.includes('name'));
 console.log('count of words in text 2:',contain2.length)
- console.log('is word yes appear in text 1:',contain3.includes('yes'));
+ console.log('is word yes appear in text 3:',contain3.includes('yes'));
  const end=new Date;
  console.log(end-start);
 
