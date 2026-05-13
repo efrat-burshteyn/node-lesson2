@@ -29,13 +29,6 @@ fs.readFile('t3.txt','utf8',(err,contain3)=>{
         console.log('error!!!!!!!!!!!!!!!!')
     }
     else{
-         console.log('is word car appear in text 4:',contain3.includes('car'));
+         console.log('is word car appear in text 4:',contain4.includes('car'));
     }
 });
-
-
-
-
-
- const end=new Date;
- console.log(end-start);
