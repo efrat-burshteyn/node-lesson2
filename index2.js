@@ -29,7 +29,7 @@ fs.readFile('t3.txt','utf8',(err,contain3)=>{
         console.log('error!!!!!!!!!!!!!!!!')
     }
     else{
-         console.log('is word yes appear in text 4:',contain3.includes('yes'));
+         console.log('is word car appear in text 4:',contain3.includes('car'));
     }
 });
 
